@@ -1,0 +1,16 @@
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Codebooks\codebook_cc.xml
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Codebooks\codebook_ccy.xml
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Codebooks\codebook_ct.xml
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Codebooks\codebook_tt.xml
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Codebooks\codebook_ycy.xml
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Spss.Models.dll.config
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Spss.Models.dll
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Spss.Models.pdb
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\General.Helpers.dll
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Spss.dll
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\GenericParsing.dll
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\General.Helpers.pdb
+C:\projects\20110707SpssDemo\Spss.Models\bin\Debug\Spss.xml
+C:\projects\20110707SpssDemo\Spss.Models\obj\x86\Debug\Spss.Models.csprojResolveAssemblyReference.cache
+C:\projects\20110707SpssDemo\Spss.Models\obj\x86\Debug\Spss.Models.dll
+C:\projects\20110707SpssDemo\Spss.Models\obj\x86\Debug\Spss.Models.pdb

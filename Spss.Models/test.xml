@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<survey_answers>
+  <survey_answer created="Thu Sep 04 10:43:08 UTC 2008">
+    <answers>
+      <answer number="1">
+        <cells>
+          <cell type="String" v="88" var="ccyi1a"/>
+          <cell type="String" v="2" var="ccyi1a"/>
+          <cell type="String" v="9" var="ccyi1b"/>
+          <cell type="String" v="9" var="ccyi1b"/>
+          <cell type="String" v="9" var="ccyi1c"/>
+          <cell type="String" v="9" var="ccyi1c"/>
+        </cells>
+      </answer>
+      <answer number="2">
+        <cells>
+          <cell type="String" v="4" var="ccyii1a"/>
+          <cell type="String" v="3" var="ccyii1a"/>
+          <ell type="String" v="1" var="ccyii1b"/>
+          <cell type="String" v="3" var="ccyii1b"/>
+          <cell type="Integer" v="0" var="ccyii1c"/>
+          <cell type="String" v="9" var="ccyii1c"/>
+        </cells>
+      </answer>
+      <answer number="3">
+        <cells>
+          <cell type="Integer" v="0" var="ccyiii1a"/>
+          <cell type="Integer" v="0" var="ccyiii1b"/>
+          <cell type="Integer" v="0" var="ccyiii1c"/>
+        </cells>
+      </answer>
+      <answer number="4">
+        <cells>
+          <cell type="String" v="1" var="ccyiv1a"/>
+          <cell type="Integer" v="0" var="cciv1b"/>
+          <cell type="Integer" v="0" var="ccyiv1c"/>
+        </cells>
+      </answer>
+      <answer number="5">
+        <cells></cells>
+      </answer>
+      <answer number="6">
+        <cells></cells>
+      </answer>
+      <answer number="7">
+        <cells>
+          <cell type="String" v="3" var="ccyvii1f"/>
+          <cell type="String" v="4" var="ccyvii1g"/>
+          <cell type="String" v="0" var="ccyvii1"/>
+          <cell type="String" v="0" var="ccyvii2"/>
+        </cells>
+      </answer>
+      <answer number="8">
+        <cells></cells>
+      </answer>
+      <answer number="10">
+        <cells></cells>
+      </answer>
+    </answers>
+  </survey_answer>
+</survey_answers>

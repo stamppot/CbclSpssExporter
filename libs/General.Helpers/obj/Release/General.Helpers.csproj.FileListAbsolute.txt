@@ -1,0 +1,6 @@
+C:\filer\20110707SpssDemo\libs\General.Helpers\bin\Release\General.Helpers.dll
+C:\filer\20110707SpssDemo\libs\General.Helpers\bin\Release\General.Helpers.pdb
+C:\filer\20110707SpssDemo\libs\General.Helpers\bin\Release\GenericParsing.dll
+C:\filer\20110707SpssDemo\libs\General.Helpers\obj\Release\ResolveAssemblyReference.cache
+C:\filer\20110707SpssDemo\libs\General.Helpers\obj\Release\General.Helpers.dll
+C:\filer\20110707SpssDemo\libs\General.Helpers\obj\Release\General.Helpers.pdb

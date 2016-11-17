@@ -1,0 +1,3054 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="cbcl_production">
+	<table_structure name="codes">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
+		<field Field="code_book_id" Type="int(11)" Null="NO" Key="" Extra="" />
+		<field Field="question_id" Type="int(11)" Null="NO" Key="" Extra="" />
+		<field Field="question_number" Type="int(11)" Null="NO" Key="" Extra="" />
+		<field Field="variable" Type="varchar(255)" Null="NO" Key="" Extra="" />
+		<field Field="item_type" Type="varchar(255)" Null="NO" Key="" Extra="" />
+		<field Field="item" Type="varchar(255)" Null="NO" Key="" Extra="" />
+		<field Field="datatype" Type="varchar(255)" Null="NO" Key="" Extra="" />
+		<field Field="description" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="measurement_level" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="row" Type="int(11)" Null="NO" Key="" Extra="" />
+		<field Field="col" Type="int(11)" Null="NO" Key="" Extra="" />
+		<field Field="item_choice_id" Type="int(11)" Null="NO" Key="" Extra="" />
+		<key Table="codes" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="807" Null="" Index_type="BTREE" Comment="" />
+		<options Name="codes" Engine="InnoDB" Version="10" Row_format="Compact" Rows="814" Avg_row_length="161" Data_length="131072" Max_data_length="0" Index_length="0" Data_free="74448896" Auto_increment="2885" Create_time="2011-11-05 21:12:39" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="codes">
+	<row>
+		<field name="id">2214</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyispor</field>
+		<field name="item_type">Checkbox</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ingen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">2</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">182</field>
+	</row>
+	<row>
+		<field name="id">2215</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyiaspg</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1a</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2216</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyibspg</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1b</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2217</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyicspg</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1c</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2218</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiihob</field>
+		<field name="item_type">Checkbox</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ingen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">2</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">182</field>
+	</row>
+	<row>
+		<field name="id">2219</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiiahg</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1a</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2220</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiibhg</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1b</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2221</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiichg</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1c</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2222</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">3</field>
+		<field name="question_number">3</field>
+		<field name="variable">ccyiiifo</field>
+		<field name="item_type">Checkbox</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ingen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">2</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">182</field>
+	</row>
+	<row>
+		<field name="id">2223</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">3</field>
+		<field name="question_number">3</field>
+		<field name="variable">ccyiiia</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item">1a</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sportsklub</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">185</field>
+	</row>
+	<row>
+		<field name="id">2224</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">3</field>
+		<field name="question_number">3</field>
+		<field name="variable">ccyiiib</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item">1b</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sportsklub</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">185</field>
+	</row>
+	<row>
+		<field name="id">2225</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">3</field>
+		<field name="question_number">3</field>
+		<field name="variable">ccyiiic</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item">1c</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sportsklub</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">185</field>
+	</row>
+	<row>
+		<field name="id">2226</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">4</field>
+		<field name="question_number">4</field>
+		<field name="variable">ccyivjob</field>
+		<field name="item_type">Checkbox</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ingen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">2</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">182</field>
+	</row>
+	<row>
+		<field name="id">2227</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">4</field>
+		<field name="question_number">4</field>
+		<field name="variable">ccyivjag</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1a</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Reklamer/aviser</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">186</field>
+	</row>
+	<row>
+		<field name="id">2228</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">4</field>
+		<field name="question_number">4</field>
+		<field name="variable">ccyivjbg</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1b</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Reklamer/aviser</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">186</field>
+	</row>
+	<row>
+		<field name="id">2229</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">4</field>
+		<field name="question_number">4</field>
+		<field name="variable">ccyivjcg</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1c</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Reklamer/aviser</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">186</field>
+	</row>
+	<row>
+		<field name="id">2230</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">5</field>
+		<field name="question_number">5</field>
+		<field name="variable">ccyv1ven</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item">1</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Hvor mange gode venner har dit barn? (Omfatter ikke brÃ¸dre og sÃ¸stre).</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">1</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">180</field>
+	</row>
+	<row>
+		<field name="id">2231</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">5</field>
+		<field name="question_number">5</field>
+		<field name="variable">ccyv2vea</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item">2</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Omtrent hvor mange gange om ugen foretager dit barn sig noget med venner uden for skoletiden?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">2</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">187</field>
+	</row>
+	<row>
+		<field name="id">2232</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">6</field>
+		<field name="question_number">6</field>
+		<field name="variable">ccyvisos</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1a</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Enes med sine sÃ¸skende?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">2</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2233</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">6</field>
+		<field name="question_number">6</field>
+		<field name="variable">ccyvibor</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1b</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Enes med andre bÃ¸rn?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2234</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">6</field>
+		<field name="question_number">6</field>
+		<field name="variable">ccyvifor</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1c</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">OpfÃ¸rer sig sammen med sine forÃ¦ldre?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2235</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">6</field>
+		<field name="question_number">6</field>
+		<field name="variable">ccyviale</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1d</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Leger eller arbejder alene?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2236</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ccyviisko</field>
+		<field name="item_type">Checkbox</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">GÃ¥r barnet i skole?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">1</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">188</field>
+	</row>
+	<row>
+		<field name="id">2237</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ccyviiund</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">hv</field>
+		<field name="datatype">String</field>
+		<field name="description">GÃ¥r barnet i skole?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">1</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">188</field>
+	</row>
+	<row>
+		<field name="id">2238</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviilae</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1a</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">LÃ¦sning</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2239</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviista</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1b</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Stavning</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2240</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviimat</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1c</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Matematik og regning</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2241</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviinat</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1d</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Natur og teknik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">6</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2242</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviieng</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1e</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Engelsk</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">7</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2243</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviivu1</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1f</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Religion</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">8</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">189</field>
+	</row>
+	<row>
+		<field name="id">2244</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviivu2</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1g</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Religion</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">9</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">189</field>
+	</row>
+	<row>
+		<field name="id">2245</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ctcundty</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item">2</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er der ivÃ¦rksat specielle undervisningsforhold for barnet, f.eks. stÃ¸tteundervisning, specialklasse eller sÃ¦rlig skole?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">10</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">159</field>
+	</row>
+	<row>
+		<field name="id">2246</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ctcgomkl</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item">3</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Har barnet gÃ¥et en klasse om?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">11</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2247</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ctcgomhv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">3hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Har barnet gÃ¥et en klasse om?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">11</field>
+		<field name="col">4</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2248</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ccyvii4pr</field>
+		<field name="item_type">Rating</field>
+		<field name="item">4</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Har barnet haft faglige eller andre problemer i skolen?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">12</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2249</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ccyvii4hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">4hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Har barnet haft faglige eller andre problemer i skolen?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">12</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2250</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ccyvii4ho</field>
+		<field name="item_type">Rating</field>
+		<field name="item">5</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er problemerne holdt op?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">13</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2251</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">9</field>
+		<field name="question_number">8</field>
+		<field name="variable">ccyhandi</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Har barnet nogle sygdomme, fysiske handicap eller mentale handicap?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">1</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2252</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">9</field>
+		<field name="question_number">8</field>
+		<field name="variable">ccyhandhv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Har barnet nogle sygdomme, fysiske handicap eller mentale handicap?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">1</field>
+		<field name="col">3</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2253</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">9</field>
+		<field name="question_number">8</field>
+		<field name="variable">ccyviii2hv</field>
+		<field name="item_type">TextBox</field>
+		<field name="item">2hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Hvad bekymrer dig mest mht. barnet?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">2</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2254</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">9</field>
+		<field name="question_number">8</field>
+		<field name="variable">ccyviii3hv</field>
+		<field name="item_type">TextBox</field>
+		<field name="item">3hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Beskriv de bedste sider ved barnet.</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2255</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy1</field>
+		<field name="item_type">Rating</field>
+		<field name="item">1</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">OpfÃ¸rer sig yngre end han/hun er</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2256</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy2</field>
+		<field name="item_type">Rating</field>
+		<field name="item">2</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Drikker alkohol uden forÃ¦ldrenes tilladelse (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">174</field>
+	</row>
+	<row>
+		<field name="id">2257</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy2hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">2hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Drikker alkohol uden forÃ¦ldrenes tilladelse (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">174</field>
+	</row>
+	<row>
+		<field name="id">2258</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy3</field>
+		<field name="item_type">Rating</field>
+		<field name="item">3</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Diskuterer meget</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2259</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy4</field>
+		<field name="item_type">Rating</field>
+		<field name="item">4</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Bliver ikke fÃ¦rdig med de ting, som han/hun begynder pÃ¥</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">6</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">164</field>
+	</row>
+	<row>
+		<field name="id">2260</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy5</field>
+		<field name="item_type">Rating</field>
+		<field name="item">5</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Det er meget fÃ¥ ting han/hun nyder at lave</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">7</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2261</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy6</field>
+		<field name="item_type">Rating</field>
+		<field name="item">6</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">AffÃ¸ring i bukserne</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">8</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2262</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy7</field>
+		<field name="item_type">Rating</field>
+		<field name="item">7</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Praler, viser sig</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">9</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2263</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy8</field>
+		<field name="item_type">Rating</field>
+		<field name="item">8</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Kan ikke koncentrere sig, kan ikke vÃ¦re opmÃ¦rksom i lÃ¦ngere tid</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">10</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">162</field>
+	</row>
+	<row>
+		<field name="id">2264</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy9</field>
+		<field name="item_type">Rating</field>
+		<field name="item">9</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Kan ikke fÃ¥ bestemte tanker ud af hovedet, tvangstanker (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">11</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">175</field>
+	</row>
+	<row>
+		<field name="id">2265</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy9hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">9hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Kan ikke fÃ¥ bestemte tanker ud af hovedet, tvangstanker (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">11</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">175</field>
+	</row>
+	<row>
+		<field name="id">2266</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy10</field>
+		<field name="item_type">Rating</field>
+		<field name="item">10</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Kan ikke sidde stille, rastlÃ¸s eller hyperaktiv</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">12</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2267</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy11</field>
+		<field name="item_type">Rating</field>
+		<field name="item">11</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Klynger sig til voksne eller er for afhÃ¦ngig</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">13</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">163</field>
+	</row>
+	<row>
+		<field name="id">2268</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy12</field>
+		<field name="item_type">Rating</field>
+		<field name="item">12</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Klager over ensomhed</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">14</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2269</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy13</field>
+		<field name="item_type">Rating</field>
+		<field name="item">13</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er forvirret eller synes at vÃ¦re i en tÃ¥ge</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">15</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2270</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy14</field>
+		<field name="item_type">Rating</field>
+		<field name="item">14</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">GrÃ¦der meget</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">16</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2271</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy15</field>
+		<field name="item_type">Rating</field>
+		<field name="item">15</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er ondskabsfuld mod dyr</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">17</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2272</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy16</field>
+		<field name="item_type">Rating</field>
+		<field name="item">16</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er ondskabsfuld eller tyranniserende mod andre</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">18</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2273</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy17</field>
+		<field name="item_type">Rating</field>
+		<field name="item">17</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">DagdrÃ¸mmer eller fortaber sig i egne tanker</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">19</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2274</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy18</field>
+		<field name="item_type">Rating</field>
+		<field name="item">18</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Skader bevidst sig selv eller forsÃ¸ger selvmord</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">20</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2275</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy19</field>
+		<field name="item_type">Rating</field>
+		<field name="item">19</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">KrÃ¦ver meget opmÃ¦rksomhed</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">21</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2276</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy20</field>
+		<field name="item_type">Rating</field>
+		<field name="item">20</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ã˜delÃ¦gger sine ting</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">22</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2277</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy21</field>
+		<field name="item_type">Rating</field>
+		<field name="item">21</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ã˜delÃ¦gger ting der tilhÃ¸rer familien eller andre</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">23</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2278</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy22</field>
+		<field name="item_type">Rating</field>
+		<field name="item">22</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ulydig hjemme</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">24</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2279</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy23</field>
+		<field name="item_type">Rating</field>
+		<field name="item">23</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ulydig i skolen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">25</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2280</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy24</field>
+		<field name="item_type">Rating</field>
+		<field name="item">24</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Spiser ikke godt</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">26</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2281</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy25</field>
+		<field name="item_type">Rating</field>
+		<field name="item">25</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Kommer dÃ¥rligt ud af det med andre bÃ¸rn</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">27</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">163</field>
+	</row>
+	<row>
+		<field name="id">2282</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy26</field>
+		<field name="item_type">Rating</field>
+		<field name="item">26</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Har tilsyneladende ikke skyldfÃ¸lelse efter at have opfÃ¸rt sig dÃ¥rligt</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">28</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">164</field>
+	</row>
+	<row>
+		<field name="id">2283</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy27</field>
+		<field name="item_type">Rating</field>
+		<field name="item">27</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Bliver let jaloux</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">29</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2284</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy28</field>
+		<field name="item_type">Rating</field>
+		<field name="item">28</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Overholder ikke regler hjemme, i skolen eller i andre sammenhÃ¦nge</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">30</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">164</field>
+	</row>
+	<row>
+		<field name="id">2285</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy29</field>
+		<field name="item_type">Rating</field>
+		<field name="item">29</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er bange for visse dyr, situationer eller steder - gÃ¦lder ikke skolen (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">31</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">190</field>
+	</row>
+	<row>
+		<field name="id">2286</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy29hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">29hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Er bange for visse dyr, situationer eller steder - gÃ¦lder ikke skolen (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">31</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">190</field>
+	</row>
+	<row>
+		<field name="id">2287</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy30</field>
+		<field name="item_type">Rating</field>
+		<field name="item">30</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er bange for at gÃ¥ i skole eller bÃ¸rnehave</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">32</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2288</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy31</field>
+		<field name="item_type">Rating</field>
+		<field name="item">31</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er bange for at tÃ¦nke eller gÃ¸re noget forkert</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">33</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2289</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy32</field>
+		<field name="item_type">Rating</field>
+		<field name="item">32</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">FÃ¸ler at han/hun skal vÃ¦re perfekt</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">34</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2290</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy33</field>
+		<field name="item_type">Rating</field>
+		<field name="item">33</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">FÃ¸ler eller beklager sig over at ingen holder af ham/hende</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">35</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">164</field>
+	</row>
+	<row>
+		<field name="id">2291</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy34</field>
+		<field name="item_type">Rating</field>
+		<field name="item">34</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">FÃ¸ler at andre er ude efter ham/hende</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">36</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2292</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy35</field>
+		<field name="item_type">Rating</field>
+		<field name="item">35</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">FÃ¸ler sig vÃ¦rdilÃ¸s eller underlegen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">37</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2293</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy36</field>
+		<field name="item_type">Rating</field>
+		<field name="item">36</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Kommer ofte til skade, ulykkesfugl</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">38</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2294</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy37</field>
+		<field name="item_type">Rating</field>
+		<field name="item">37</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Kommer ofte op at slÃ¥s</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">39</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2295</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy38</field>
+		<field name="item_type">Rating</field>
+		<field name="item">38</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Bliver drillet meget</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">40</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2296</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy39</field>
+		<field name="item_type">Rating</field>
+		<field name="item">39</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er sammen med andre der har problemer</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">41</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2297</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy40</field>
+		<field name="item_type">Rating</field>
+		<field name="item">40</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">HÃ¸rer lyde og stemmer som ikke er der (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">42</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">173</field>
+	</row>
+	<row>
+		<field name="id">2298</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy40hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">40hv</field>
+		<field name="datatype">String</field>
+		<field name="description">HÃ¸rer lyde og stemmer som ikke er der (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">42</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">173</field>
+	</row>
+	<row>
+		<field name="id">2299</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy41</field>
+		<field name="item_type">Rating</field>
+		<field name="item">41</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Impulsiv eller handler uden at tÃ¦nke</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">43</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2300</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy42</field>
+		<field name="item_type">Rating</field>
+		<field name="item">42</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Vil hellere vÃ¦re alene end sammen med andre</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">44</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">163</field>
+	</row>
+	<row>
+		<field name="id">2301</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy43</field>
+		<field name="item_type">Rating</field>
+		<field name="item">43</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Lyver eller snyder</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">45</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2302</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy44</field>
+		<field name="item_type">Rating</field>
+		<field name="item">44</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Bider negle</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">46</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2303</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy45</field>
+		<field name="item_type">Rating</field>
+		<field name="item">45</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">NervÃ¸s eller anspÃ¦ndt</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">47</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2304</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy46</field>
+		<field name="item_type">Rating</field>
+		<field name="item">46</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">NervÃ¸se bevÃ¦gelser, tics eller trÃ¦kninger (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">48</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">174</field>
+	</row>
+	<row>
+		<field name="id">2305</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy46hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">46hv</field>
+		<field name="datatype">String</field>
+		<field name="description">NervÃ¸se bevÃ¦gelser, tics eller trÃ¦kninger (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">48</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">174</field>
+	</row>
+	<row>
+		<field name="id">2306</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy47</field>
+		<field name="item_type">Rating</field>
+		<field name="item">47</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Har mareridt om natten</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">49</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2307</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy48</field>
+		<field name="item_type">Rating</field>
+		<field name="item">48</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ikke vellidt af andre bÃ¸rn</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">50</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2308</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy49</field>
+		<field name="item_type">Rating</field>
+		<field name="item">49</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Forstoppet, ikke gang i affÃ¸ringen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">51</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2309</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy50</field>
+		<field name="item_type">Rating</field>
+		<field name="item">50</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">For bange eller Ã¦ngstelig</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">52</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2310</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy51</field>
+		<field name="item_type">Rating</field>
+		<field name="item">51</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">FÃ¸ler sig svimmel</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">53</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2311</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy52</field>
+		<field name="item_type">Rating</field>
+		<field name="item">52</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Har for stÃ¦rk skyldfÃ¸lelse</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">54</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2312</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy53</field>
+		<field name="item_type">Rating</field>
+		<field name="item">53</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Spiser for meget</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">55</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2313</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy54</field>
+		<field name="item_type">Rating</field>
+		<field name="item">54</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">OvertrÃ¦t</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">56</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2314</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy55</field>
+		<field name="item_type">Rating</field>
+		<field name="item">55</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">OvervÃ¦gtig</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">57</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2315</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56a</field>
+		<field name="item_type">Rating</field>
+		<field name="item">56a</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Har ondt eller smerter, ikke hovedpine</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">59</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2316</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56b</field>
+		<field name="item_type">Rating</field>
+		<field name="item">56b</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Hovedpine</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">60</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2317</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56c</field>
+		<field name="item_type">Rating</field>
+		<field name="item">56c</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Kvalme, fÃ¸ler sig utilpas</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">61</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2318</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56d</field>
+		<field name="item_type">Rating</field>
+		<field name="item">56d</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Problemer med Ã¸jnene (beskriv).</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">62</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">170</field>
+	</row>
+	<row>
+		<field name="id">2319</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56dhv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">56dhv</field>
+		<field name="datatype">String</field>
+		<field name="description">Problemer med Ã¸jnene (beskriv).</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">62</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">170</field>
+	</row>
+	<row>
+		<field name="id">2320</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56e</field>
+		<field name="item_type">Rating</field>
+		<field name="item">56e</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">UdslÃ¦t eller andre hudproblemer</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">63</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2321</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56f</field>
+		<field name="item_type">Rating</field>
+		<field name="item">56f</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Mavesmerter</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">64</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2322</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56g</field>
+		<field name="item_type">Rating</field>
+		<field name="item">56g</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">BrÃ¦kker sig, kaster op</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">65</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2323</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56h</field>
+		<field name="item_type">Rating</field>
+		<field name="item">56h</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Andet (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">66</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">176</field>
+	</row>
+	<row>
+		<field name="id">2324</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy56hhv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">56hhv</field>
+		<field name="datatype">String</field>
+		<field name="description">Andet (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">66</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">176</field>
+	</row>
+	<row>
+		<field name="id">2325</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy57</field>
+		<field name="item_type">Rating</field>
+		<field name="item">57</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Angriber andre med slag eller spark</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">67</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2326</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy58</field>
+		<field name="item_type">Rating</field>
+		<field name="item">58</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Piller nÃ¦se, hud eller andre dele af kroppen (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">68</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">173</field>
+	</row>
+	<row>
+		<field name="id">2327</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy58hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">58hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Piller nÃ¦se, hud eller andre dele af kroppen (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">68</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">173</field>
+	</row>
+	<row>
+		<field name="id">2328</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy59</field>
+		<field name="item_type">Rating</field>
+		<field name="item">59</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Leger med sine kÃ¸nsorganer offentligt</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">69</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2329</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy60</field>
+		<field name="item_type">Rating</field>
+		<field name="item">60</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Leger for meget med sine kÃ¸nsorganer</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">70</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2330</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy61</field>
+		<field name="item_type">Rating</field>
+		<field name="item">61</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Arbejder dÃ¥rligt med skolearbejdet</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">71</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2331</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy62</field>
+		<field name="item_type">Rating</field>
+		<field name="item">62</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Klodset eller dÃ¥rlig til at koordinere sine bevÃ¦gelser</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">72</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">163</field>
+	</row>
+	<row>
+		<field name="id">2332</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy63</field>
+		<field name="item_type">Rating</field>
+		<field name="item">63</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">ForetrÃ¦kker at vÃ¦re sammen med Ã¦ldre bÃ¸rn</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">73</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2333</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy64</field>
+		<field name="item_type">Rating</field>
+		<field name="item">64</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">ForetrÃ¦kker at vÃ¦re sammen med yngre bÃ¸rn</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">74</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2334</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy65</field>
+		<field name="item_type">Rating</field>
+		<field name="item">65</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">NÃ¦gter at tale</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">75</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2335</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy66</field>
+		<field name="item_type">Rating</field>
+		<field name="item">66</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Gentager bestemte handlinger igen og igen, tvangshandlinger (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">76</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">178</field>
+	</row>
+	<row>
+		<field name="id">2336</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy66hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">66hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Gentager bestemte handlinger igen og igen, tvangshandlinger (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">76</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">178</field>
+	</row>
+	<row>
+		<field name="id">2337</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy67</field>
+		<field name="item_type">Rating</field>
+		<field name="item">67</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">LÃ¸ber hjemmefra</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">77</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2338</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy68</field>
+		<field name="item_type">Rating</field>
+		<field name="item">68</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Skriger meget</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">78</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2339</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy69</field>
+		<field name="item_type">Rating</field>
+		<field name="item">69</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Hemmelighedsfuld, holder tingene for sig selv</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">79</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2340</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy70</field>
+		<field name="item_type">Rating</field>
+		<field name="item">70</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ser ting som ikke er der (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">80</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">191</field>
+	</row>
+	<row>
+		<field name="id">2341</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy70hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">70hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Ser ting som ikke er der (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">80</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">191</field>
+	</row>
+	<row>
+		<field name="id">2342</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy71</field>
+		<field name="item_type">Rating</field>
+		<field name="item">71</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Bliver let flov eller forlegen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">81</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2343</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy72</field>
+		<field name="item_type">Rating</field>
+		<field name="item">72</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">TÃ¦nder ild, laver brand</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">82</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2344</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy73</field>
+		<field name="item_type">Rating</field>
+		<field name="item">73</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Seksuelle problemer (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">83</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">177</field>
+	</row>
+	<row>
+		<field name="id">2345</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy73hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">73hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Seksuelle problemer (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">83</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">177</field>
+	</row>
+	<row>
+		<field name="id">2346</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy74</field>
+		<field name="item_type">Rating</field>
+		<field name="item">74</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Klovner eller optrÃ¦der</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">84</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2347</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy75</field>
+		<field name="item_type">Rating</field>
+		<field name="item">75</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sky eller genert</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">85</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2348</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy76</field>
+		<field name="item_type">Rating</field>
+		<field name="item">76</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sover mindre end andre bÃ¸rn</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">86</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2349</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy77</field>
+		<field name="item_type">Rating</field>
+		<field name="item">77</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sover mere end andre bÃ¸rn om dagen og/eller natten (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">87</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">175</field>
+	</row>
+	<row>
+		<field name="id">2350</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy77hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">77hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Sover mere end andre bÃ¸rn om dagen og/eller natten (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">87</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">175</field>
+	</row>
+	<row>
+		<field name="id">2351</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy78</field>
+		<field name="item_type">Rating</field>
+		<field name="item">78</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">UopmÃ¦rksom eller afledes let</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">88</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2352</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy79</field>
+		<field name="item_type">Rating</field>
+		<field name="item">79</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Taleproblemer (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">89</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">176</field>
+	</row>
+	<row>
+		<field name="id">2353</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy79hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">79hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Taleproblemer (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">89</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">176</field>
+	</row>
+	<row>
+		<field name="id">2354</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy80</field>
+		<field name="item_type">Rating</field>
+		<field name="item">80</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Stirrer tomt frem for sig</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">90</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2355</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy81</field>
+		<field name="item_type">Rating</field>
+		<field name="item">81</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">StjÃ¦ler hjemme</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">91</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2356</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy82</field>
+		<field name="item_type">Rating</field>
+		<field name="item">82</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">StjÃ¦ler udenfor hjemmet</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">92</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2357</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy83</field>
+		<field name="item_type">Rating</field>
+		<field name="item">83</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Samler ting han/hun ikke har brug for (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">93</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">178</field>
+	</row>
+	<row>
+		<field name="id">2358</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy83hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">83hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Samler ting han/hun ikke har brug for (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">93</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">178</field>
+	</row>
+	<row>
+		<field name="id">2359</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy84</field>
+		<field name="item_type">Rating</field>
+		<field name="item">84</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">MÃ¦rkelig opfÃ¸rsel (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">94</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">177</field>
+	</row>
+	<row>
+		<field name="id">2360</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy84hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">84hv</field>
+		<field name="datatype">String</field>
+		<field name="description">MÃ¦rkelig opfÃ¸rsel (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">94</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">177</field>
+	</row>
+	<row>
+		<field name="id">2361</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy85</field>
+		<field name="item_type">Rating</field>
+		<field name="item">85</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">MÃ¦rkelige ideer (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">95</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">177</field>
+	</row>
+	<row>
+		<field name="id">2362</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy85hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">85hv</field>
+		<field name="datatype">String</field>
+		<field name="description">MÃ¦rkelige ideer (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">95</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">177</field>
+	</row>
+	<row>
+		<field name="id">2363</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy86</field>
+		<field name="item_type">Rating</field>
+		<field name="item">86</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">StÃ¦dig, mut eller irritabel</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">96</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2364</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy87</field>
+		<field name="item_type">Rating</field>
+		<field name="item">87</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Svingende i humÃ¸r eller fÃ¸lelser</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">97</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2365</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy88</field>
+		<field name="item_type">Rating</field>
+		<field name="item">88</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Surmuler meget</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">98</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2366</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy89</field>
+		<field name="item_type">Rating</field>
+		<field name="item">89</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">MistÃ¦nksom</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">99</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2367</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy90</field>
+		<field name="item_type">Rating</field>
+		<field name="item">90</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Bander eller bruger grimme ord</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">100</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2368</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy91</field>
+		<field name="item_type">Rating</field>
+		<field name="item">91</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Taler om at tage livet af sig selv</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">101</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">163</field>
+	</row>
+	<row>
+		<field name="id">2369</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy92</field>
+		<field name="item_type">Rating</field>
+		<field name="item">92</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Taler eller gÃ¥r i sÃ¸vne (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">102</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">174</field>
+	</row>
+	<row>
+		<field name="id">2370</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy92hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">92hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Taler eller gÃ¥r i sÃ¸vne (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">102</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">174</field>
+	</row>
+	<row>
+		<field name="id">2371</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy93</field>
+		<field name="item_type">Rating</field>
+		<field name="item">93</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Taler for meget</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">103</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2372</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy94</field>
+		<field name="item_type">Rating</field>
+		<field name="item">94</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Driller meget</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">104</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2373</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy95</field>
+		<field name="item_type">Rating</field>
+		<field name="item">95</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Anfald af arrigskab eller vrede</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">105</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2374</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy96</field>
+		<field name="item_type">Rating</field>
+		<field name="item">96</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er meget optaget af sex</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">106</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2375</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy97</field>
+		<field name="item_type">Rating</field>
+		<field name="item">97</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Truer folk</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">107</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2376</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy98</field>
+		<field name="item_type">Rating</field>
+		<field name="item">98</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sutter pÃ¥ finger</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">108</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2377</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy99</field>
+		<field name="item_type">Rating</field>
+		<field name="item">99</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ryger cigaretter (tobak)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">109</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2378</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy100</field>
+		<field name="item_type">Rating</field>
+		<field name="item">100</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">SÃ¸vnproblemer (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">110</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">176</field>
+	</row>
+	<row>
+		<field name="id">2379</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy100hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">100hv</field>
+		<field name="datatype">String</field>
+		<field name="description">SÃ¸vnproblemer (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">110</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">176</field>
+	</row>
+	<row>
+		<field name="id">2380</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy101</field>
+		<field name="item_type">Rating</field>
+		<field name="item">101</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Skulker eller pjÃ¦kker fra skolen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">111</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2381</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy102</field>
+		<field name="item_type">Rating</field>
+		<field name="item">102</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">For lidt aktiv, bevÃ¦ger sig langsomt eller mangler energi</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">112</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">166</field>
+	</row>
+	<row>
+		<field name="id">2382</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy103</field>
+		<field name="item_type">Rating</field>
+		<field name="item">103</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ulykkelig, trist eller deprimeret</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">113</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">165</field>
+	</row>
+	<row>
+		<field name="id">2383</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy104</field>
+		<field name="item_type">Rating</field>
+		<field name="item">104</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">UsÃ¦dvanlig hÃ¸jrÃ¸stet</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">114</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2384</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy105</field>
+		<field name="item_type">Rating</field>
+		<field name="item">105</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Indtager alkohol eller stoffer uden lÃ¦gelig begrundelse (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">115</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">178</field>
+	</row>
+	<row>
+		<field name="id">2385</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy105hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">105hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Indtager alkohol eller stoffer uden lÃ¦gelig begrundelse (beskriv)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">115</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">178</field>
+	</row>
+	<row>
+		<field name="id">2386</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy106</field>
+		<field name="item_type">Rating</field>
+		<field name="item">106</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Vandalisme (Ã¸delÃ¦ggelsestrang)</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">116</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2387</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy107</field>
+		<field name="item_type">Rating</field>
+		<field name="item">107</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Tisser i bukserne om dagen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">117</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">171</field>
+	</row>
+	<row>
+		<field name="id">2388</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy108</field>
+		<field name="item_type">Rating</field>
+		<field name="item">108</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Tisser i sengen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">118</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">169</field>
+	</row>
+	<row>
+		<field name="id">2389</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy109</field>
+		<field name="item_type">Rating</field>
+		<field name="item">109</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Jamrer</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">119</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">168</field>
+	</row>
+	<row>
+		<field name="id">2390</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy110</field>
+		<field name="item_type">Rating</field>
+		<field name="item">110</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Ã˜nsker at vÃ¦re af det modsatte kÃ¸n</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">120</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">161</field>
+	</row>
+	<row>
+		<field name="id">2391</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy111</field>
+		<field name="item_type">Rating</field>
+		<field name="item">111</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Tilbagetrukken, involverer sig ikke med andre</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">121</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	<row>
+		<field name="id">2392</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy112</field>
+		<field name="item_type">Rating</field>
+		<field name="item">112</field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Bekymrer sig</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">122</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">167</field>
+	</row>
+	<row>
+		<field name="id">2393</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">20</field>
+		<field name="question_number">10</field>
+		<field name="variable">ccy113hv</field>
+		<field name="item_type">ListItemComment</field>
+		<field name="item">hv</field>
+		<field name="datatype">String</field>
+		<field name="description">Skriv venligst hvilke problemer dit barn har, der ikke er nÃ¦vnt pÃ¥ listen</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">123</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">190</field>
+	</row>
+	<row>
+		<field name="id">2826</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyiaspt</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2827</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyibspt</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2828</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyicspt</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2829</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyiasp</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2830</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyibsp</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2831</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">1</field>
+		<field name="question_number">1</field>
+		<field name="variable">ccyicsp</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Fodbold</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">183</field>
+	</row>
+	<row>
+		<field name="id">2832</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiiah</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2833</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiiaht</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2834</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiibh</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2835</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiich</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2836</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiibht</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2837</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">2</field>
+		<field name="question_number">2</field>
+		<field name="variable">ccyiicht</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Musik</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">184</field>
+	</row>
+	<row>
+		<field name="id">2838</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">3</field>
+		<field name="question_number">3</field>
+		<field name="variable">ccyiiiaa</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sportsklub</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">185</field>
+	</row>
+	<row>
+		<field name="id">2839</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">3</field>
+		<field name="question_number">3</field>
+		<field name="variable">ccyiiiba</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sportsklub</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">185</field>
+	</row>
+	<row>
+		<field name="id">2840</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">3</field>
+		<field name="question_number">3</field>
+		<field name="variable">ccyiiica</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Sportsklub</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">185</field>
+	</row>
+	<row>
+		<field name="id">2841</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">4</field>
+		<field name="question_number">4</field>
+		<field name="variable">ccyivja</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Reklamer/aviser</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">3</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">186</field>
+	</row>
+	<row>
+		<field name="id">2842</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">4</field>
+		<field name="question_number">4</field>
+		<field name="variable">ccyivjb</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Reklamer/aviser</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">4</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">186</field>
+	</row>
+	<row>
+		<field name="id">2843</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">4</field>
+		<field name="question_number">4</field>
+		<field name="variable">ccyivjc</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Reklamer/aviser</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">5</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">186</field>
+	</row>
+	<row>
+		<field name="id">2844</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviian1</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Religion</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">8</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">189</field>
+	</row>
+	<row>
+		<field name="id">2845</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">caviian2</field>
+		<field name="item_type">SelectOption</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Religion</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">9</field>
+		<field name="col">1</field>
+		<field name="item_choice_id">189</field>
+	</row>
+	<row>
+		<field name="id">2846</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ctcunder</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Er der ivÃ¦rksat specielle undervisningsforhold for barnet, f.eks. stÃ¸tteundervisning, specialklasse eller sÃ¦rlig skole?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">10</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">159</field>
+	</row>
+	<row>
+		<field name="id">2847</field>
+		<field name="code_book_id">2</field>
+		<field name="question_id">7</field>
+		<field name="question_number">7</field>
+		<field name="variable">ctcgaaom</field>
+		<field name="item_type">Rating</field>
+		<field name="item"></field>
+		<field name="datatype">Numeric</field>
+		<field name="description">Har barnet gÃ¥et en klasse om?</field>
+		<field name="measurement_level">Nominal</field>
+		<field name="row">11</field>
+		<field name="col">2</field>
+		<field name="item_choice_id">160</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
