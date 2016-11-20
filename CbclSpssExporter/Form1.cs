@@ -261,7 +261,7 @@ namespace CbclSpssExporter
                 }
                 SaveAnswers(_codebooks, _importedAnswers, _exportFullFile);
 
-                Log(string.Format("Svar er gemt i '{0}'.", _exportFullFile));
+                Log(string.Format("Svar er gemt i '{0}'.\nLuk programmet!", _exportFullFile));
             }
         }
 

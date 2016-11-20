@@ -28,6 +28,7 @@ namespace CbclSpssExporter
             this.Ssghafd = answerMetadata.Ssghafd;
             this.Ssghnavn = answerMetadata.Ssghnavn;
             this.Besvarelsesdato = answerMetadata.Besvarelsesdato;
+            this.FollowUp = answerMetadata.FollowUp;
         }
 
        public static IEnumerable<AnswerInfo> GetJournalInfos(DataTable table, int surveyId)
